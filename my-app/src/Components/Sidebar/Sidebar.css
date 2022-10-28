@@ -1,0 +1,135 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background: #405189;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    transition: width 0.5s;
+    z-index: 99;
+    display: inline;
+
+
+}
+.collapsed img {
+    height: 5%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    transition: 0.5s;
+    
+    /* align-self: center; */
+
+}
+.sidebar img {
+    height: 5%;
+    width: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    transition: 0.5s;
+    
+    /* align-self: center; */
+
+}
+.sidebar a {
+    /* display: block;
+    color:#777777;
+    padding: 10px; */
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Ruda', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+    padding: 0 16px;
+    transition: 0.5s;
+  }
+.sidebar a span{
+    font-size: 12px !important;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+
+/* .active {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  } */
+
+.sidebar a:hover {
+    background-color:white;
+    color: #405189;
+}
+
+.collapsed {
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    background: #405189;
+    position: fixed;
+    height: 100%;
+    overflow:hidden;
+    transition:  0.5s;
+    z-index: 99;
+
+}
+.collapsed a {
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Ruda', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+    padding: 0 16px;
+    transition: 0.5s;
+    color:white
+}
+.collapsed a:hover {
+    background-color:white;
+    color: #405189;
+}
+
+
+.icon {
+    width: 20px;
+    height: 14px;
+    position:inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 6%;
+    color: #777777;
+    transition: 0.5s;
+
+}
+.icon-closed {
+    width: 20px;
+    height: 14px;
+    position:inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 16%;
+    transition: 0.5s;
+    color: #777777;
+
+}

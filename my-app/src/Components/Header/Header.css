@@ -1,0 +1,86 @@
+.topbar {
+    position: relative;
+    left: 5%;
+    width: 95%;
+    /* border-bottom: #405189 solid 1px; */
+    transition: 0.5s;
+    background-color: white;
+}
+.topbar1 {
+    position: relative;
+    left: 15%;
+    width: 85%;
+    transition: 0.5s;
+    background-color: white;
+    /* border-bottom: #405189 solid 1px; */
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+.header span {
+    font-size: 10px!important;
+    border-radius: 50rem!important;
+    opacity: 1;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 600;
+    color: #fff ;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    position: absolute;
+    top:21%;
+    margin-left: -7px;
+}
+.pakistan img {
+    height: 20px;
+    width: 20px;
+}
+.asjad img {
+    border-radius: 25px;
+}
+.header div {
+    margin: 2%;
+    font-size: 125%;
+}
+.header div:hover {
+    color:#3577f1;
+    background-color:rgba(53,119,241,.1);
+    border-radius: 25px;
+}
+.header div.userprofile{
+    display: flex;
+    background-color: #f3f3f9;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.header div.userprofile:hover{
+    color:inherit;
+    border-radius: 0px;
+}
+.userprofile div {
+    margin: 5%;
+}
+.userprofile div:hover {
+    color:inherit;
+    border-radius: 0px;
+    background-color: #f3f3f9;
+
+}
+
+.upText h5 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Ruda', sans-serif;
+    color: #495057;
+}
+.upText h6 {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Ruda', sans-serif;
+    color: #878a99;
+}

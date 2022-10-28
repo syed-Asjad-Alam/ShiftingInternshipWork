@@ -1,0 +1,323 @@
+.form {
+    display: flex;
+    width: 95%;
+    height: 100vh;
+    position: relative;
+    left: 5%;
+    top: 0px;
+    z-index: 1400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+}
+.filterform {
+    display: flex;
+    box-shadow: 0 3px 30px rgb(56 65 74 / 15%);
+    /* position: relative; */
+    /* left: 0px;
+    top: 0px; */
+    z-index: 1400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    overflow:auto;
+    transition: all 0.5s;
+}
+.filterform:hover {
+    box-shadow: 0 3px 30px rgb(56 65 74 / 15%);
+    background-color: white;
+    margin: 1%;
+    margin-top: 0.5%;
+    min-width: 23%;
+    transition: all 0.4s;
+}
+
+.innerform {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    color: inherit;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    z-index: 1400;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    max-width: 28rem;
+    justify-content: flex-start;
+}
+
+.innerform header {
+    flex: 0 1 0;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+}
+
+.innerform .belowheader {
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.firstdiv {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+}
+
+.firstdiv label {
+    display: block;
+    text-align: start;
+    font-size: 1rem;
+    margin-inline-end: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    transition-duration: 200ms;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+
+}
+
+
+.firstdiv input {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+
+}
+
+.firstdiv input:focus-visible {
+    z-index: 1;
+    border-color: rgb(49, 130, 206);
+    box-shadow: rgb(49 130 206) 0px 0px 0px 1px;
+}
+
+.firstdiv1 input {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+
+}
+
+.firstdiv1 input:focus-visible {
+    z-index: 1;
+    border-color: rgb(49, 130, 206);
+    box-shadow: rgb(49 130 206) 0px 0px 0px 1px;
+}
+
+.firstdiv1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstdiv1 select {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+
+}
+
+.firstdiv1 select option {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.firstdiv select {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+
+}
+
+.firstdiv select option {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.form footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline-start: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.parentdivfilter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.inputs {
+    display: flex;
+    justify-content:space-evenly;
+
+    
+}
+
+.inputs input {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 1.5rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 1%;
+    padding: 1px;
+    
+
+}
+
+.inputs div {
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons {
+    display: flex;
+}
+.buttons div {
+   padding: 2%;
+}
+.save {
+    border-radius: 0.37rem;
+    color: white;
+    font-weight: 600;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    background: #3498db;
+    border: none;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    margin-right: 5px;
+}
+.cancel {
+    border-radius: 0.37rem;
+    font-weight: 600;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    background: #EDF2F7;
+    border: none;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    margin-left: 5px;
+
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+        width: 0%;
+    }
+    to{
+        opacity: 1;
+        width: 100%;
+
+    }
+}
+.filterform {
+    box-shadow: 0 12px 30px rgb(56 65 74 / 15%);
+    animation-name: fadein;
+    animation-duration: 0.5s;
+    border-radius: 10px;
+}
+.filter {
+    color: #299cdb;
+    background-color:rgba(41,156,219,.1);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 1%;
+    cursor: pointer;
+    font-family: 'Ruda','sans-serif';
+    transition: 0.5s;
+}
+
+.filter:hover {
+    color: white;
+    background-color: #299cdb;
+    transition: 0.5s;
+}
+.filtercancel {
+    color: #777777;
+    background-color:rgba(73, 80, 82, 0.1);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 1%;
+    cursor: pointer;
+    font-family: 'Ruda','sans-serif';
+    transition: 0.5s;
+}
+
+.filtercancel:hover {
+    color: white;
+    background-color: #777777;
+    transition: 0.5s;
+}

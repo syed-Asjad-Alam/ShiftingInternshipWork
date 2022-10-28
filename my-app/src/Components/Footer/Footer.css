@@ -1,0 +1,52 @@
+.footer {
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    left: 5%;
+    width: 95%;
+    transition: 0.5s;
+    box-shadow: 0px -8px 8px rgb(56 65 74 / 15%);
+}
+.footer1 {
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:white;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    left:15%;
+    width: 85%;
+    transition: 0.5s;
+    box-shadow: 0px -8px 8px rgb(56 65 74 / 15%);
+}
+
+.footertext {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footertext h4 {
+    font-size: 13px;
+    font-family: "Poppins",sans-serif;
+    text-align: left;
+    color:#98a6ad;
+}
+
+.footertext h5 {
+    font-size: 13px;
+    font-family: "Poppins",sans-serif;
+    text-align: right;
+    color:#98a6ad;
+}
+
+
+
+
+
+
